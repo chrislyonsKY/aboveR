@@ -1,0 +1,31 @@
+Package: aboveR
+Title: LiDAR Terrain Analysis and Change Detection from Above
+Version: 0.1.0
+Authors@R:
+    person("Chris", "Lyons", , "chris@nullislandlabs.dev",
+           role = c("aut", "cre"))
+Description: Terrain change detection, cut and fill volume estimation, terrain profiling, reclamation monitoring, erosion analysis, and flood risk assessment from LiDAR point clouds and DEMs. Built on 'lidR' for point cloud I/O and 'terra' for raster operations. Includes access utilities for 'KyFromAbove' cloud-native elevation data on AWS.
+License: MIT + file LICENSE
+URL: https://github.com/null-island-labs/aboveR
+BugReports: https://github.com/null-island-labs/aboveR/issues
+Depends: R (>= 4.1.0)
+Imports:
+    lidR,
+    terra,
+    sf
+Suggests:
+    rstac,
+    httr2,
+    cli,
+    rgl,
+    mapview,
+    ggplot2,
+    whitebox,
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Config/testthat/edition: 3
+VignetteBuilder: knitr
