@@ -2,7 +2,7 @@ Package: aboveR
 Title: LiDAR Terrain Analysis and Change Detection from Above
 Version: 0.1.0
 Authors@R:
-    person("Chris", "Lyons", , "chris@nullislandlabs.dev",
+    person("Chris", "Lyons", , "chrislyons@nullislandlabs.dev",
            role = c("aut", "cre"))
 Description: Terrain change detection, cut and fill volume estimation, terrain profiling, reclamation monitoring, erosion analysis, and flood risk assessment from LiDAR point clouds and DEMs. Built on 'lidR' for point cloud I/O and 'terra' for raster operations. Includes access utilities for 'KyFromAbove' cloud-native elevation data on AWS.
 License: MIT + file LICENSE
